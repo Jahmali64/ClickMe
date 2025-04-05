@@ -1,0 +1,6 @@
+@ClickMe.Api_HostAddress = http://localhost:5228
+
+GET {{ClickMe.Api_HostAddress}}/
+Accept: application/json
+
+###
