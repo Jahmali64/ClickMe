@@ -21,5 +21,11 @@
       <ProjectReference Include="..\ClickMe.Application\ClickMe.Application.csproj" />
       <ProjectReference Include="..\ClickMe.Shared\ClickMe.Shared.csproj" />
     </ItemGroup>
+    
+    <ItemGroup>
+        <Content Include="app.db">
+            <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
+    </ItemGroup>
 
 </Project>
